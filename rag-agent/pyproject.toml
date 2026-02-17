@@ -1,0 +1,20 @@
+[project]
+name = "rag-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.5.0",
+    "langchain>=1.2.10",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-groq>=1.1.2",
+    "langchain-huggingface>=1.2.0",
+    "langchain-text-splitters>=1.1.0",
+    "livekit-agents>=1.4.1",
+    "livekit-plugins-deepgram>=1.4.1",
+    "livekit-plugins-silero>=1.4.1",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.2.2",
+]
